@@ -42,12 +42,12 @@ export default function Footer() {
             <div className="max-w-[416px]">
               <div className="">
                 <Image
-                  src="/assets/images/hero-logo.png"
-                  alt="Vanguard Logo"
-                  width={122}
-                  height={44}
-                  className="mb-6"
+                  src="/assets/logo.png"
+                  alt="logo"
+                  width={100}
+                  height={100}
                   style={{ objectFit: 'cover' }}
+                  className="mb-6"
                 />
               </div>
               <p className="text-sm mb-10 text-gray-text font-thin dark:text-white dark:text-opacity-70">
@@ -180,7 +180,7 @@ export default function Footer() {
           </div>
 
           <div className="text-tagline pb-16 font-thin text-xs">
-            {new Date().getFullYear()} All rights reserved. Company name
+            {new Date().getFullYear()} All rights reserved. Pexel Ltd
           </div>
         </footer>
       </div>

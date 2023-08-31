@@ -70,9 +70,15 @@ export default function Navbar() {
         >
           <Link
             href="/"
-            className="mr-6 hover:text-primary"
+            className="mr-6 hover:text-primar flex items-center justify-center"
           >
-            logo
+            <Image
+              src="/assets/logo.png"
+              alt="logo"
+              width={60}
+              height={60}
+              style={{ objectFit: 'cover' }}
+            />
           </Link>
           {/* Dropdown */}
 
@@ -94,7 +100,7 @@ export default function Navbar() {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/web-development"
                       onClick={handleDropdownClose}
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-200 rounded-t-md"
                     >
@@ -108,15 +114,6 @@ export default function Navbar() {
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-200 "
                     >
                       Web Design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/"
-                      onClick={handleDropdownClose}
-                      className="block px-4 py-2 text-gray-800 hover:bg-gray-200 rounded-b-md"
-                    >
-                      Web Audit
                     </Link>
                   </li>
                 </ul>
@@ -183,7 +180,13 @@ export default function Navbar() {
                   className=""
                   style={{ objectFit: 'cover' }}
                 /> */}
-                <p>logo</p>
+                <Image
+                  src="/assets/logo.png"
+                  alt="logo"
+                  width={60}
+                  height={60}
+                  style={{ objectFit: 'cover' }}
+                />
                 <FaTimes
                   className="text-xl text-gray-500 hover:text-gray-600 cursor-pointer"
                   onClick={() => setIsMenuToggled(true)}

@@ -21,9 +21,9 @@ export default function Hero() {
                 Work with us
               </button>
               <p className="text-gray-text dark:text-white">
-                Silicon is a leading full-service digital agency based in New
-                York. We make mobile apps,websites & brands, that people
-                appreciate all around the world.
+                Pexel is a leading full-service digital agency based in London.
+                We make mobile apps, websites & brands, that people appreciate
+                all around the world.
               </p>
             </div>
           </div>
