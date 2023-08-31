@@ -9,7 +9,7 @@ const HowWeWork = () => {
       {/*  Numbers */}
       <div className="grid grid-cols-1 xs:grid-cols-2 min-[900px]:flex min-[900px]:flex-row gap-8 ">
         <div className="flex flex-col gap-4">
-          <span className="text-xl border-4 border-gradient-middle/20 rounded-full w-12 h-12 flex justify-center items-center font-bold mb-3">
+          <span className="text-xl border-4 border-gradient-middle/20 dark:border-gradient-middle rounded-full w-12 h-12 flex justify-center items-center font-bold mb-3">
             1
           </span>
 
@@ -20,7 +20,7 @@ const HowWeWork = () => {
           </p>
         </div>
         <div className="flex flex-col gap-4">
-          <span className="text-xl border-4 border-gradient-middle/20 rounded-full w-12 h-12 flex justify-center items-center font-bold mb-3">
+          <span className="text-xl border-4 border-gradient-middle/20 dark:border-gradient-middle rounded-full w-12 h-12 flex justify-center items-center font-bold mb-3">
             2
           </span>
 
@@ -31,7 +31,7 @@ const HowWeWork = () => {
           </p>
         </div>
         <div className="flex flex-col gap-4">
-          <span className="text-xl border-4 border-gradient-middle/20 rounded-full w-12 h-12 flex justify-center items-center font-bold mb-3">
+          <span className="text-xl border-4 border-gradient-middle/20 dark:border-gradient-middle rounded-full w-12 h-12 flex justify-center items-center font-bold mb-3">
             3
           </span>
 
@@ -42,7 +42,7 @@ const HowWeWork = () => {
           </p>
         </div>
         <div className="flex flex-col gap-4">
-          <span className="text-xl border-4 border-gradient-middle/20 rounded-full w-12 h-12 flex justify-center items-center font-bold mb-3">
+          <span className="text-xl border-4 border-gradient-middle/20 dark:border-gradient-middle rounded-full w-12 h-12 flex justify-center items-center font-bold mb-3">
             4
           </span>
 
