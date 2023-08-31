@@ -2,26 +2,116 @@
 @tailwind components;
 @tailwind utilities;
 
+/* React Toastify */
+@import 'react-toastify/dist/ReactToastify.css';
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-primary: #6366f1;
+  --color-primary-dark: #595cd9;
+  --color-gradient-middle: #8b5cf6;
+  --color-gradient-end: #f8fafc;
+  --color-black: #0b0f19;
+  --color-off-black: #232730;
+  --color-gray-text: #565973;
+  --color-gray-nav-text: #33354d;
+  --color-tagline: #9397ad;
+  --color-off-white: #f3f6ff;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--color-black);
+  background-color: #fff;
+  font-family: var(--font-manrope);
+}
+
+.hero-gradient {
+  background: radial-gradient(
+    circle,
+    rgba(99, 135, 241, 0.09989933473389356) 0%,
+    rgba(218, 70, 239, 0.05228028711484589) 50%,
+    rgba(99, 135, 241, 0.0970982142857143) 100%
+  );
+}
+
+.sticky-fixed {
+  animation: slide-down 0.5s ease-in-out;
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+.sidebar-animation {
+  animation: slide-across 0.3s ease-in-out;
+}
+
+@keyframes slide-across {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+/* Modal overlays */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.sidebar-modal-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: rgb(248 250 252);
+  overflow: auto;
+  z-index: 1000;
+}
+
+/* Pagination */
+.pagination-links a {
+  font-size: small;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-links a:hover {
+  color: var(--color-primary);
 }

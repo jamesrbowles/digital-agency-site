@@ -1,0 +1,109 @@
+'use client';
+
+import React from 'react';
+import { RiLightbulbFlashLine, RiTeamLine, RiAwardLine } from 'react-icons/ri';
+import CurvedArrow from 'react-curved-arrow';
+
+export default function Attributes() {
+  return (
+    <div
+      id="attributes"
+      className="max-w-[1316px] mx-auto px-5 flex justify-between items-center max-[889px]:gap-36 mt-28 mb-32 max-[889px]:flex-col"
+    >
+      <div className="flex flex-col justify-center items-center first">
+        <div className="min-[890px]:hidden">
+          <CurvedArrow
+            fromSelector=".first"
+            toSelector=".second"
+            middleX={150}
+            middleY={20}
+            fromOffsetX={40}
+            toOffsetX={80}
+            fromOffsetY={-90}
+            toOffsetY={0}
+            width={4}
+            color="#6366F1"
+            dynamicUpdate={true}
+          />
+        </div>
+        <svg
+          width="0"
+          height="0"
+        >
+          <linearGradient
+            id="gradient"
+            x1="100%"
+            y1="100%"
+            x2="0%"
+            y2="0%"
+          >
+            <stop
+              stopColor="#6366F1"
+              offset="0%"
+            />
+            <stop
+              stopColor="#8b5cf6"
+              offset="50%"
+            />
+            <stop
+              stopColor="#d946ef"
+              offset="100%"
+            />
+          </linearGradient>
+        </svg>
+        <RiLightbulbFlashLine
+          className="mb-6 w-12 h-12"
+          style={{ fill: 'url(#gradient)' }}
+        />
+
+        <h2 className="font-semibold mb-3 text-xl text-center">
+          Creative Solutions
+        </h2>
+        <p className="text-gray-text dark:text-white text-sm text-center">
+          Sed morbi nulla pulvinar lectus tempor vel euismod accumsan.
+        </p>
+      </div>
+      <div className="w-[1px] h-[170px] bg-tagline bg-opacity-30 mx-[72px] max-[889px]:hidden"></div>
+      <div className="flex flex-col justify-center items-center second">
+        <div className="min-[890px]:hidden">
+          <CurvedArrow
+            fromSelector=".second"
+            toSelector=".third"
+            middleX={-150}
+            middleY={20}
+            fromOffsetX={-40}
+            toOffsetX={-80}
+            fromOffsetY={-90}
+            toOffsetY={20}
+            width={4}
+            color="#6366F1"
+            dynamicUpdate={true}
+          />
+        </div>
+        <RiAwardLine
+          className="mb-6 w-12 h-12"
+          style={{ fill: 'url(#gradient)' }}
+        />
+        <h2 className="font-semibold mb-3 text-xl text-center">
+          Award Winning
+        </h2>
+        <p className="text-gray-text dark:text-white text-sm text-center">
+          Sed morbi nulla pulvinar lectus tempor vel euismod accumsan.
+        </p>
+      </div>
+      <div className="w-[1px] h-[170px] bg-tagline bg-opacity-30 mx-[72px] max-[889px]:hidden"></div>
+      <div className="flex flex-col justify-center items-center third">
+        <RiTeamLine
+          className="mb-6 w-12 h-12"
+          style={{ fill: 'url(#gradient)' }}
+        />
+        <h2 className="font-semibold mb-3 text-xl text-center">
+          Team of Professionals
+        </h2>
+        <p className="text-gray-text dark:text-white text-sm text-center">
+          Sed morbi nulla pulvinar lectus tempor vel euismod accumsan.
+        </p>
+      </div>
+    </div>
+  );
+}
