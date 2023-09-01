@@ -1,3 +1,4 @@
+import GeneralProvider from '@/hooks/Context';
 import Footer from './components/layout/Footer';
 import Navbar from './components/layout/Navbar';
 import './globals.css';
@@ -25,11 +26,13 @@ export default function RootLayout({ children }: ChildrenProps) {
       <body
         className={`${manrope.variable} bg-white dark:bg-black text-black dark:text-white`}
       >
-        <Providers>
-          <Navbar />
-          {children}
-          <Footer />
-        </Providers>
+        <GeneralProvider>
+          <Providers>
+            <Navbar />
+            {children}
+            <Footer />
+          </Providers>
+        </GeneralProvider>
       </body>
     </html>
   );
