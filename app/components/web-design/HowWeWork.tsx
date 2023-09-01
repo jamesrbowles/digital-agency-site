@@ -1,7 +1,3 @@
-import team from '@/data/team';
-import Image from 'next/image';
-import TeamMember from '@/data/teamTypes';
-
 const HowWeWork = () => {
   return (
     <div className="max-w-[1316px] px-5 mb-28 mx-auto mt-20">

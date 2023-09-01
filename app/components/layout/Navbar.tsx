@@ -109,7 +109,7 @@ export default function Navbar() {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/web-design"
                       onClick={handleDropdownClose}
                       className="block px-4 py-2 text-gray-800 hover:bg-gray-200 "
                     >
@@ -196,40 +196,33 @@ export default function Navbar() {
               {/* MENU ITEMS */}
               <div className="flex flex-col gap-7 pl-5 pr-10 drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] ">
                 <Link
-                  href="/"
+                  href="/web-development"
                   className="text-gray-nav-text"
                 >
                   Web Development
                 </Link>
 
                 <Link
-                  href="/"
+                  href="/web-design"
                   className="text-gray-nav-text"
                 >
                   Web Design
                 </Link>
 
                 <Link
-                  href="/"
-                  className="text-gray-nav-text"
-                >
-                  Web Audit
-                </Link>
-
-                <Link
-                  href="/"
+                  href="/portfolio"
                   className="text-gray-nav-text"
                 >
                   Portfolio
                 </Link>
                 <Link
-                  href="/"
+                  href="/about"
                   className="text-gray-nav-text"
                 >
                   About
                 </Link>
                 <Link
-                  href="/"
+                  href="/contact"
                   className="text-gray-nav-text"
                 >
                   Contact

@@ -1,17 +1,17 @@
 import BreadCrumb from '../components/global/BreadCrumb';
 import CallToAction from '../components/home/CallToAction';
-import WebDevHeader from '../components/web-development/WebDevHeader';
-import WhatWeOffer from '../components/web-development/WhatWeOffer';
-import HowWeWork from '../components/web-development/HowWeWork';
+import WebDesignHeader from '../components/web-design/WebDesignHeader';
+import WhatWeOffer from '../components/web-design/WhatWeOffer';
+import HowWeWork from '../components/web-design/HowWeWork';
 
-export default function WebDev() {
+export default function WebDesign() {
   return (
     <div>
       <div className="hero-gradient relative">
         <div className="max-w-[1316px] mx-auto px-5">
-          <BreadCrumb title="Web Development" />
+          <BreadCrumb title="Web Design" />
         </div>
-        <WebDevHeader />
+        <WebDesignHeader />
       </div>
       {/*  <div className="h-[300px] w-full max-w-[1316px] mx-auto px-5">
         blah blah 2nd component
