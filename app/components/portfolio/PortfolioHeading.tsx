@@ -1,4 +1,14 @@
+'use client';
+
+import { useGeneralContext } from '@/hooks/Context';
+
 export default function PortfolioHeading() {
+  const context = useGeneralContext();
+  let handleCategoryChange;
+  // Check if context is defined and handleCategoryChange is available
+  if (context) {
+    handleCategoryChange = context.handleCategoryChange;
+  }
   return (
     <div className="flex justify-between items-center mt-8 mb-10">
       <h1 className="text-4xl font-bold">Portfolio</h1>
@@ -18,10 +28,11 @@ export default function PortfolioHeading() {
               })
             } */
           className="px-4 py-[11px] text-tagline bg-transparent border rounded-md cursor-pointer dark:border-gray-text"
+          onChange={handleCategoryChange}
         >
-          <option value="">All categories</option>
-          <option value="marbella">Web Development</option>
-          <option value="estepona">Web Design</option>
+          <option value="All Categories">All Categories</option>
+          <option value="Web Development">Web Development</option>
+          <option value="Web Design">Web Design</option>
         </select>
       </div>
       {/*  </form> */}

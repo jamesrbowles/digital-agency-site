@@ -35,7 +35,7 @@ export default function PortfolioListings() {
     }
   };
 
-  console.log(filteredProjects);
+  console.log(category);
 
   return (
     <div>
