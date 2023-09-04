@@ -4,43 +4,18 @@ import Image from 'next/image';
 import Link from 'next/link';
 import projects from '@/data/projects';
 import { useGeneralContext } from '@/hooks/Context';
-import { Caramel } from 'next/font/google';
 import { useState } from 'react';
+import projectProps from '@/data/projectTypes';
 
-interface projectProps {
-  id: number;
-  title: string;
-  image: string;
-  category: string;
-  date: string;
-  challenge: string;
-  solution: string;
-  shortDescription: string;
-  longDescription: string;
-  moreImages: string[];
-}
-
-export default function PortfolioListings() {
-  const { category } = useGeneralContext() || { category: 'All Categories' };
-  const [filteredProjects, setFilteredProjects] =
-    useState<projectProps[]>(projects);
-
-  const filterProjects = () => {
-    if (category !== 'All Categories') {
-      setFilteredProjects(
-        projects.filter((project) => project.category === category)
-      );
-    } else {
-      setFilteredProjects(projects);
-    }
-  };
-
-  console.log(category);
-
+export default function PortfolioListings({
+  selectedProjects,
+}: {
+  selectedProjects: projectProps[];
+}) {
   return (
     <div>
       <div className="flex flex-col gap-24 mb-28">
-        {filteredProjects.map((project: projectProps, index) => (
+        {selectedProjects.map((project: projectProps, index) => (
           <div
             key={index}
             className={`flex gap-24 w-full h-[400px] max-[750px]:relative bg-white dark:bg-off-black drop-shadow-md rounded-lg hover:drop-shadow-lg ${

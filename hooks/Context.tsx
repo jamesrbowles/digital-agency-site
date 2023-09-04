@@ -1,5 +1,6 @@
 'use client';
 
+import { usePathname, useRouter } from 'next/navigation';
 import { createContext, useState, useContext, ChangeEvent } from 'react';
 
 interface ContextProps {
@@ -15,12 +16,20 @@ type ChildrenProps = {
 };
 
 const GeneralProvider = ({ children }: ChildrenProps) => {
-  const [category, setCategory] = useState<string>('All Categories');
+  const [category, setCategory] = useState<string>('');
+
+  const router = useRouter();
+  const pathname = usePathname();
 
   const handleCategoryChange = (e: ChangeEvent<HTMLSelectElement>) => {
     const chosenCategory = e.target.value;
 
     setCategory(chosenCategory);
+
+    const queryParams = new URLSearchParams();
+    queryParams.set('filter', chosenCategory.toString());
+
+    router.push(`${pathname}?${queryParams.toString()}`);
   };
 
   return (
