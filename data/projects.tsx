@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'Saas Project Management Tool',
-    image: '/assets/images/listings/listing1.jpg',
+    image: '/assets/images/listings/1/main.jpg',
     category: 'Web Development',
     date: 'July 18, 2023',
     challenge:
@@ -22,7 +22,7 @@ const projects = [
   {
     id: 2,
     title: 'E-commerce Website Redesign',
-    image: '/assets/images/listings/listing1.jpg',
+    image: '/assets/images/listings/2/main.jpg',
     category: 'Web Design',
     date: 'Mar 5, 2023',
     challenge:
@@ -42,7 +42,7 @@ const projects = [
   {
     id: 3,
     title: 'Mobile App Development',
-    image: '/assets/images/listings/listing1.jpg',
+    image: '/assets/images/listings/3/main.jpg',
     category: 'Web Development',
     date: 'Nov 18, 2022',
     challenge:
@@ -62,7 +62,7 @@ const projects = [
   {
     id: 4,
     title: 'Brand Identity Redesign',
-    image: '/assets/images/listings/listing1.jpg',
+    image: '/assets/images/listings/4/main.jpg',
     category: 'Web Design',
     date: 'Sep 02, 2021',
     challenge:
