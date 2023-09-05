@@ -14,7 +14,7 @@ export default function Home() {
       <FeaturedProjects />
       <OurSkills />
       <HomeTestimonials />
-      <LatestBlogs />
+      {/*    <LatestBlogs /> */}
       <CallToAction />
     </main>
   );

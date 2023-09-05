@@ -17,9 +17,11 @@ export default function Hero() {
               Your Ideas into Reality
             </h1>
             <div className="flex gap-10 mt-16">
-              <button className="px-8 py-3 w-[162px] h-[52px] bg-primary text-white rounded drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] whitespace-nowrap hover:bg-primary-dark">
-                Work with us
-              </button>
+              <Link href="/contact">
+                <button className="px-8 py-3 w-[162px] h-[52px] bg-primary text-white rounded drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] whitespace-nowrap hover:bg-primary-dark">
+                  Work with us
+                </button>
+              </Link>
               <p className="text-gray-text dark:text-white">
                 Pexel is a leading full-service digital agency based in London.
                 We make mobile apps, websites & brands, that people appreciate
@@ -47,9 +49,8 @@ export default function Hero() {
           </div>
         </div>
         <div className="mb-24">
-          <Link
+          <a
             href="#attributes"
-            scroll={false}
             className="mt-40 flex items-center gap-4 z-20"
           >
             <button className="bg-white rounded-full p-2.5">
@@ -58,7 +59,7 @@ export default function Hero() {
             <span className="text-sm text-gray-text dark:text-white">
               Discover more
             </span>
-          </Link>
+          </a>
         </div>
       </div>
       {/* Background images */}
@@ -71,50 +72,6 @@ export default function Hero() {
           style={{ objectFit: 'cover' }}
         />
       </div>
-      {/*       <div className="absolute -bottom-[500px] -right-[500px]">
-        <div className="relative">
-          <Image
-            src="/assets/images/Vector-1.png"
-            alt="Hero Fan"
-            width={1297}
-            height={861}
-            style={{ objectFit: "cover" }}
-            className="absolute bottom-0 left-0"
-          />
-          <Image
-            src="/assets/images/Vector-2.png"
-            alt="Hero Fan"
-            width={1201}
-            height={781}
-            style={{ objectFit: "cover" }}
-            className="absolute -bottom-[96px] left-[96px]"
-          />
-          <Image
-            src="/assets/images/Vector-3.png"
-            alt="Hero Fan"
-            width={1121}
-            height={717}
-            style={{ objectFit: "cover" }}
-            className="absolute -bottom-[172px] left-[172px]"
-          />
-          <Image
-            src="/assets/images/Vector-4.png"
-            alt="Hero Fan"
-            width={1041}
-            height={660}
-            style={{ objectFit: "cover" }}
-            className="absolute -bottom-[239px] left-[239px]"
-          />
-          <Image
-            src="/assets/images/Vector-5.png"
-            alt="Hero Fan"
-            width={977}
-            height={613}
-            style={{ objectFit: "cover" }}
-            className="absolute -bottom-[300px] left-[300px]"
-          />
-        </div>
-      </div> */}
     </div>
   );
 }

@@ -8,6 +8,10 @@ type projectProps = {
   solution: string;
   shortDescription: string;
   longDescription: string;
+  results: string;
+  hits: number;
+  newClients: number;
+  session: number;
   moreImages: string[];
 };
 

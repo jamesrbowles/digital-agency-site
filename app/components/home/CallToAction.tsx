@@ -5,10 +5,10 @@ export default function CallToAction() {
         Want to work with us? Let&apos;s talk
       </h1>
       <a
-        href="mailto:example@gmail.com"
+        href="mailto:careers@pexeldigitals"
         className="text-white text-4xl font-bold drop-shadow-lg tracking-wide underline underline-offset-2 decoration-1"
       >
-        example@gmail.com
+        careers@pexeldigitals
       </a>
 
       <button className="bg-white hover:bg-off-white px-8 py-3 mt-12 rounded drop-shadow-lg dark:text-black">

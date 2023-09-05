@@ -26,9 +26,9 @@ export default function Project({ params }: { params: paramsSlug }) {
           title={project?.title}
         />
         <ProjectHeading project={project} />
-        <ProjectDetails />
-        <ProjectImages />
-        <ProjectResults />
+        <ProjectDetails project={project} />
+        <ProjectImages project={project} />
+        <ProjectResults project={project} />
       </div>
 
       <CallToAction />

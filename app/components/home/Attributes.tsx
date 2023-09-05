@@ -60,7 +60,8 @@ export default function Attributes() {
           Creative Solutions
         </h2>
         <p className="text-gray-text dark:text-white text-sm text-center">
-          Sed morbi nulla pulvinar lectus tempor vel euismod accumsan.
+          Where innovation meets design, crafting unique digital experiences for
+          your brand.
         </p>
       </div>
       <div className="w-[1px] h-[170px] bg-tagline bg-opacity-30 mx-[72px] max-[889px]:hidden"></div>
@@ -88,7 +89,8 @@ export default function Attributes() {
           Award Winning
         </h2>
         <p className="text-gray-text dark:text-white text-sm text-center">
-          Sed morbi nulla pulvinar lectus tempor vel euismod accumsan.
+          Recognized excellence - we bring award-winning creativity to your
+          digital projects.
         </p>
       </div>
       <div className="w-[1px] h-[170px] bg-tagline bg-opacity-30 mx-[72px] max-[889px]:hidden"></div>
@@ -101,7 +103,7 @@ export default function Attributes() {
           Team of Professionals
         </h2>
         <p className="text-gray-text dark:text-white text-sm text-center">
-          Sed morbi nulla pulvinar lectus tempor vel euismod accumsan.
+          An expert team dedicated to driving your digital success forward.
         </p>
       </div>
     </div>

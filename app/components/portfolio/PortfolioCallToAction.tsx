@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 export default function PortfolioCallToAction() {
@@ -12,9 +13,11 @@ export default function PortfolioCallToAction() {
           Take Your <span className="text-primary">Business</span> to the Next
           Level
         </h1>
-        <button className="px-8 py-3 w-[162px] h-[52px] bg-primary text-white rounded drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] whitespace-nowrap hover:bg-primary-dark">
-          Work with us
-        </button>
+        <Link href="/contact">
+          <button className="px-8 py-3 w-[162px] h-[52px] bg-primary text-white rounded drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] whitespace-nowrap hover:bg-primary-dark">
+            Work with us
+          </button>
+        </Link>
       </div>
       <div className="absolute -bottom-[34px] -right-[20px]">
         <div className="h-[442px] w-[660px] max-[1030px]:hidden">

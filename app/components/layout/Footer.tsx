@@ -51,10 +51,10 @@ export default function Footer() {
                 />
               </div>
               <p className="text-sm mb-10 text-gray-text font-thin dark:text-white dark:text-opacity-70">
-                Proin ipsum pharetra, senectus eget scelerisque varius pretium
-                platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi
-                sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget
-                elementum dolor ullamcorper sodales ultrices eros.{' '}
+                Pexel is a leading digital agency specializing in web
+                development and web design. With a focus on innovation and
+                user-centric solutions, we transform ideas into captivating
+                digital experiences. Elevate your online presence with Pexel.
               </p>
 
               <div>
@@ -100,29 +100,35 @@ export default function Footer() {
                     Home
                   </Link>
                   <Link
-                    href="/"
+                    href="/about"
                     className="hover:text-primary"
                   >
                     About
                   </Link>
                   <Link
-                    href="/"
+                    href="/web-development"
                     className="hover:text-primary"
                   >
-                    Services
+                    Development
                   </Link>
                   <Link
-                    href="/"
+                    href="/web-design"
+                    className="hover:text-primary"
+                  >
+                    Design
+                  </Link>
+                  <Link
+                    href="/portfolio"
                     className="hover:text-primary"
                   >
                     Portfolio
                   </Link>
-                  <Link
+                  {/*           <Link
                     href="/"
                     className="hover:text-primary"
                   >
                     Blog
-                  </Link>
+                  </Link> */}
                 </ul>
               </div>
               <div>

@@ -34,8 +34,7 @@ export default function ContactHeading() {
             <div className="flex flex-col max-w-[390px]">
               <h2 className=" font-bold text-2xl mb-2">Careers</h2>
               <p className=" text-gray-text leading-relaxed mb-4 font-light dark:text-white/70">
-                Sit ac ipsum leo lorem magna nunc mattis maecenas non
-                vestibulum.
+                Want to work with us? We may be recruiting so get in touch!
               </p>
               <div className="flex gap-2 items-center">
                 <span className="text-primary font-semibold">

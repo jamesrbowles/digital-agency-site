@@ -132,13 +132,13 @@ const OurSkills = () => {
             title="Web Development"
             content={
               <p className="mb-2 text-secondary">
-                Vitae varius euismod egestas egestas lacus. Augue vitae arcu
-                sollicitudin metus iaculis amet, eu at amet. Netus pulvinar
-                tristique ridiculus sed. Viverra ut viverra aenean nisl. Tortor
-                lorem cum congue a. Orci mattis massa tortor magna massa nisi,
-                aliquet risus. Ornare cras aenean pellentesque quam pulvinar at.
-                Libero mollis tortor erat sed. Adipiscing lectus nisi commodo
-                vel. Id augue vitae, hendrerit iaculis.
+                In the realm of web development, we excel in building powerful,
+                dynamic websites and web applications. Our team of skilled
+                developers harnesses the latest technologies to create fast,
+                secure, and scalable digital solutions. From custom web
+                platforms to e-commerce sites, we turn your ideas into
+                functional, user-friendly realities that stand out in the
+                digital landscape.
               </p>
             }
             isDefaultOpen={true}
@@ -147,41 +147,27 @@ const OurSkills = () => {
             title="Web Design"
             content={
               <p className="mb-2 text-secondary">
-                Vitae varius euismod egestas egestas lacus. Augue vitae arcu
-                sollicitudin metus iaculis amet, eu at amet. Netus pulvinar
-                tristique ridiculus sed. Viverra ut viverra aenean nisl. Tortor
-                lorem cum congue a. Orci mattis massa tortor magna massa nisi,
-                aliquet risus. Ornare cras aenean pellentesque quam pulvinar at.
-                Libero mollis tortor erat sed. Adipiscing lectus nisi commodo
-                vel. Id augue vitae, hendrerit iaculis.
+                Our web design expertise lies in crafting visually stunning,
+                user-centric digital experiences. We believe that great design
+                goes beyond aesthetics; it&apos;s about enhancing usability and
+                engagement. Our talented designers create responsive, intuitive
+                interfaces that leave a lasting impression. Whether it&apos;s a
+                website, app, or branding, we ensure your online presence
+                captivates and converts.
               </p>
             }
           />
-          <AccordionItem
-            title="Web Auditing"
-            content={
-              <p className="mb-2 text-secondary">
-                Vitae varius euismod egestas egestas lacus. Augue vitae arcu
-                sollicitudin metus iaculis amet, eu at amet. Netus pulvinar
-                tristique ridiculus sed. Viverra ut viverra aenean nisl. Tortor
-                lorem cum congue a. Orci mattis massa tortor magna massa nisi,
-                aliquet risus. Ornare cras aenean pellentesque quam pulvinar at.
-                Libero mollis tortor erat sed. Adipiscing lectus nisi commodo
-                vel. Id augue vitae, hendrerit iaculis.
-              </p>
-            }
-          />
+
           <AccordionItem
             title="Strategy"
             content={
               <p className="mb-2 text-secondary">
-                Vitae varius euismod egestas egestas lacus. Augue vitae arcu
-                sollicitudin metus iaculis amet, eu at amet. Netus pulvinar
-                tristique ridiculus sed. Viverra ut viverra aenean nisl. Tortor
-                lorem cum congue a. Orci mattis massa tortor magna massa nisi,
-                aliquet risus. Ornare cras aenean pellentesque quam pulvinar at.
-                Libero mollis tortor erat sed. Adipiscing lectus nisi commodo
-                vel. Id augue vitae, hendrerit iaculis.
+                Strategy is at the core of our digital agency. We don&apos;t
+                just build; we plan meticulously. Our strategists dive deep into
+                understanding your goals, audience, and competition. With
+                data-driven insights and innovative thinking, we map out a
+                roadmap for your success. From SEO and content strategies to
+                marketing campaigns, we execute strategies that drive growth.
               </p>
             }
           />
