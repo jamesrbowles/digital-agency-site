@@ -17,7 +17,7 @@ const center = {
 const GoogleLocation = () => {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API,
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API as string,
   });
 
   const [map, setMap] = useState(null);
@@ -46,44 +46,6 @@ const GoogleLocation = () => {
           },
         ],
       },
-      /*      {
-        featureType: 'landscape',
-        elementType: 'geometry',
-        stylers: [
-          {
-            saturation: -100, // Remove color from landscape
-          },
-        ],
-      }, */
-      /* {
-        featureType: 'water',
-        elementType: 'geometry',
-        stylers: [
-          {
-            color: '#4E90C4',
-
-            // Blue color for water
-          },
-        ],
-      }, */
-      /* {
-        featureType: 'administrative',
-        elementType: 'geometry.stroke',
-        stylers: [
-          {
-            visibility: 'off', // Hide administrative boundaries
-          },
-        ],
-      }, */
-      /*  {
-        featureType: 'transit',
-        elementType: 'geometry',
-        stylers: [
-          {
-            visibility: 'off', // Hide transit lines
-          },
-        ],
-      }, */
       {
         featureType: 'road',
         elementType: 'geometry',
@@ -105,7 +67,7 @@ const GoogleLocation = () => {
     ],
   };
 
-  const onLoad = (map) => {
+  const onLoad = (map: any) => {
     setMap(map);
   };
 
