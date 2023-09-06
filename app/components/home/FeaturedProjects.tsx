@@ -14,7 +14,7 @@ export default function FeaturedProjects() {
       </div>
       <div className="grid grid-cols-3 gap-6 max-[600px]:flex max-[600px]:flex-col max-[600px]:justify-center max-[600px]:items-center">
         <Image
-          className="row-span-2 max-[600px]:max-h-[416px] rounded-lg"
+          className="row-span-2 rounded-lg"
           src="/assets/images/project1.jpg"
           alt="Hero Globe"
           width={416}
@@ -22,6 +22,7 @@ export default function FeaturedProjects() {
           style={{ objectFit: 'cover' }}
         />
         <Image
+          className="rounded-lg"
           src="/assets/images/project2.jpg"
           alt="Hero Globe"
           width={416}
@@ -29,6 +30,7 @@ export default function FeaturedProjects() {
           style={{ objectFit: 'cover' }}
         />
         <Image
+          className="rounded-lg"
           src="/assets/images/project3.jpg"
           alt="Hero Globe"
           width={416}
@@ -36,7 +38,7 @@ export default function FeaturedProjects() {
           style={{ objectFit: 'cover' }}
         />
         <Image
-          className="col-span-2 max-[600px]:max-w-[416px] max-[600px]:h-[416px] rounded-lg"
+          className="col-span-2 rounded-lg"
           src="/assets/images/project4.jpg"
           alt="Hero Globe"
           width={856}
