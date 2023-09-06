@@ -17,5 +17,12 @@ export default function Providers({ children }: ChildrenProps) {
     return <>{children}</>;
   }
 
-  return <ThemeProvider attribute="class">{children}</ThemeProvider>;
+  return (
+    <ThemeProvider
+      enableSystem={false}
+      attribute="class"
+    >
+      {children}
+    </ThemeProvider>
+  );
 }
