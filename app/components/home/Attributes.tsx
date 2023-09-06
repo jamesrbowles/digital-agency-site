@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { RiLightbulbFlashLine, RiTeamLine, RiAwardLine } from 'react-icons/ri';
-import CurvedArrow from 'react-curved-arrow';
-
+/* import CurvedArrow from 'react-curved-arrow';
+ */
 export default function Attributes() {
   return (
     <div
@@ -11,7 +11,7 @@ export default function Attributes() {
       className="max-w-[1316px] mx-auto px-5 flex justify-between items-center max-[889px]:gap-36 mt-28 mb-32 max-[889px]:flex-col"
     >
       <div className="flex flex-col justify-center items-center first">
-        <div className="min-[890px]:hidden">
+        {/*       <div className="min-[890px]:hidden">
           <CurvedArrow
             fromSelector=".first"
             toSelector=".second"
@@ -25,8 +25,8 @@ export default function Attributes() {
             color="#6366F1"
             dynamicUpdate={true}
           />
-        </div>
-        <svg
+        </div> */}
+        {/*         <svg
           width="0"
           height="0"
         >
@@ -50,10 +50,10 @@ export default function Attributes() {
               offset="100%"
             />
           </linearGradient>
-        </svg>
+        </svg> */}
         <RiLightbulbFlashLine
-          className="mb-6 w-12 h-12"
-          style={{ fill: 'url(#gradient)' }}
+          className="mb-6 w-12 h-12 text-primary"
+          /*  style={{ fill: 'url(#gradient)' }} */
         />
 
         <h2 className="font-semibold mb-3 text-xl text-center">
@@ -66,7 +66,7 @@ export default function Attributes() {
       </div>
       <div className="w-[1px] h-[170px] bg-tagline bg-opacity-30 mx-[72px] max-[889px]:hidden"></div>
       <div className="flex flex-col justify-center items-center second">
-        <div className="min-[890px]:hidden">
+        {/*       <div className="min-[890px]:hidden">
           <CurvedArrow
             fromSelector=".second"
             toSelector=".third"
@@ -80,10 +80,10 @@ export default function Attributes() {
             color="#6366F1"
             dynamicUpdate={true}
           />
-        </div>
+        </div> */}
         <RiAwardLine
-          className="mb-6 w-12 h-12"
-          style={{ fill: 'url(#gradient)' }}
+          className="mb-6 w-12 h-12 text-primary"
+          /*  style={{ fill: 'url(#gradient)' }} */
         />
         <h2 className="font-semibold mb-3 text-xl text-center">
           Award Winning
@@ -96,8 +96,8 @@ export default function Attributes() {
       <div className="w-[1px] h-[170px] bg-tagline bg-opacity-30 mx-[72px] max-[889px]:hidden"></div>
       <div className="flex flex-col justify-center items-center third">
         <RiTeamLine
-          className="mb-6 w-12 h-12"
-          style={{ fill: 'url(#gradient)' }}
+          className="mb-6 w-12 h-12 text-primary"
+          /*  style={{ fill: 'url(#gradient)' }} */
         />
         <h2 className="font-semibold mb-3 text-xl text-center">
           Team of Professionals
