@@ -8,7 +8,7 @@ export default function CallToAction() {
       </h1>
       <a
         href="mailto:careers@pexeldigitals"
-        className="text-white text-4xl font-bold drop-shadow-lg tracking-wide underline underline-offset-2 decoration-1"
+        className="text-white text-2xl xs:text-4xl font-bold drop-shadow-lg tracking-wide underline underline-offset-2 decoration-1"
       >
         careers@pexeldigitals
       </a>

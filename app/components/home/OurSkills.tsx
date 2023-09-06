@@ -75,6 +75,7 @@ const AccordionContent: React.FC<AccordionContentProps> = ({
         width={200}
         height={200}
         style={{ objectFit: 'cover' }}
+        className="hidden min-[580px]:inline"
       />
 
       {children}

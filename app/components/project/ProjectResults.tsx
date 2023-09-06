@@ -16,18 +16,20 @@ export default function ProjectResults({
       </div>
       <div className="flex flex-col items-center min-[500px]:flex-row gap-10 justify-around my-10">
         <div className="flex flex-col gap-2">
-          <span className="text-4xl font-bold">+{project?.hits}</span>
+          <span className="text-4xl font-bold text-center">
+            +{project?.hits}
+          </span>
           <span className="text-sm text-gray-text dark:text-white/70">
             <strong>Requests</strong> per Week
           </span>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 text-center">
           <span className="text-4xl font-bold">+{project?.newClients}</span>
           <span className="text-sm text-gray-text dark:text-white/70">
             <strong>New Clients</strong> per Month
           </span>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 text-center">
           <span className="text-4xl font-bold">+{project?.session}s</span>
           <span className="text-sm text-gray-text dark:text-white/70">
             <strong>Average</strong> Session Duration
