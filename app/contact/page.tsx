@@ -2,6 +2,12 @@ import ContactHeading from '../components/contact/ContactHeading';
 import GoogleLocation from '../components/contact/GoogleLocation';
 import BreadCrumb from '../components/global/BreadCrumb';
 
+export const metadata = {
+  title: 'Contact | Pexel Digital Agency',
+  description:
+    'Pexel is a leading full-service digital agency based in London. We make mobile apps, websites & brands, that people appreciate all around the world.',
+};
+
 export default function Contact() {
   return (
     <div>

@@ -6,6 +6,12 @@ import HomeTestimonials from '../components/home/HomeTestimonials';
 import OurTeam from '../components/about/OurTeam';
 import CallToAction from '../components/home/CallToAction';
 
+export const metadata = {
+  title: 'About | Pexel Digital Agency',
+  description:
+    'Pexel is a leading full-service digital agency based in London. We make mobile apps, websites & brands, that people appreciate all around the world.',
+};
+
 export default function About() {
   return (
     <div>

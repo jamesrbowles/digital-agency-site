@@ -7,6 +7,24 @@ import ProjectImages from '@/app/components/project/ProjectImages';
 import ProjectResults from '@/app/components/project/ProjectResults';
 import projects from '@/data/projects';
 
+const findProjectBySlug = (slug: string) => {
+  return projects.find(
+    (project) => slug === project.title.replace(/ /g, '-').toLowerCase()
+  );
+};
+
+export async function generateMetadata({ params }: { params: paramsSlug }) {
+  const slug = params.slug;
+
+  const project = findProjectBySlug(slug);
+
+  return {
+    title: `${project?.title} | Pexel Digital Agency`,
+    description:
+      'Pexel is a leading full-service digital agency based in London. We make mobile apps, websites & brands, that people appreciate all around the world.',
+  };
+}
+
 type paramsSlug = {
   slug: string;
 };
@@ -14,9 +32,7 @@ type paramsSlug = {
 export default function Project({ params }: { params: paramsSlug }) {
   const slug = params.slug;
 
-  const project = projects.find(
-    (project) => slug === project.title.replace(/ /g, '-').toLowerCase()
-  );
+  const project = findProjectBySlug(slug);
 
   return (
     <div>

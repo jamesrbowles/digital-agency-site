@@ -4,6 +4,12 @@ import WebDesignHeader from '../components/web-design/WebDesignHeader';
 import WhatWeOffer from '../components/web-design/WhatWeOffer';
 import HowWeWork from '../components/web-design/HowWeWork';
 
+export const metadata = {
+  title: 'Web Design | Pexel Digital Agency',
+  description:
+    'Pexel is a leading full-service digital agency based in London. We make mobile apps, websites & brands, that people appreciate all around the world.',
+};
+
 export default function WebDesign() {
   return (
     <div>

@@ -4,6 +4,12 @@ import WebDevHeader from '../components/web-development/WebDevHeader';
 import WhatWeOffer from '../components/web-development/WhatWeOffer';
 import HowWeWork from '../components/web-development/HowWeWork';
 
+export const metadata = {
+  title: 'Web Development | Pexel Digital Agency',
+  description:
+    'Pexel is a leading full-service digital agency based in London. We make mobile apps, websites & brands, that people appreciate all around the world.',
+};
+
 export default function WebDev() {
   return (
     <div>

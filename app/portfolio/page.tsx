@@ -4,6 +4,12 @@ import PortfolioListings from '../components/portfolio/PortfolioListings';
 import PortfolioCallToAction from '../components/portfolio/PortfolioCallToAction';
 import projects from '@/data/projects';
 
+export const metadata = {
+  title: 'Portfolio | Pexel Digital Agency',
+  description:
+    'Pexel is a leading full-service digital agency based in London. We make mobile apps, websites & brands, that people appreciate all around the world.',
+};
+
 type searchProps = {
   filter: string;
 };
