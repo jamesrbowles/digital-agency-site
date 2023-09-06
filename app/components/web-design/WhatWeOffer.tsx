@@ -22,8 +22,8 @@ const WhatWeOffer = () => {
               </div>
               <h3 className="font-bold">Innovative Solutions</h3>
               <p className="text-gray-text dark:text-white/70 text-sm leading-relaxed">
-                Massa enim libero dictum consectetur convallis lobortis cursus
-                mi a magna ullamcorper consectetur.
+                Innovative solutions driving your business forward with
+                cutting-edge technology and creative thinking.
               </p>
             </div>
             <div className="flex flex-col gap-4">
@@ -32,8 +32,8 @@ const WhatWeOffer = () => {
               </div>
               <h3 className="font-bold">Success Guarantee</h3>
               <p className="text-gray-text dark:text-white/70 text-sm leading-relaxed">
-                At ultricies id non quisque integer eget velit. Facilisis enim
-                malesuada metus, risus amet ultricies magna aliquam.
+                Guaranteeing your success through personalized strategies and
+                results-driven solutions.
               </p>
             </div>
             <div className="flex flex-col gap-4">
@@ -42,8 +42,8 @@ const WhatWeOffer = () => {
               </div>
               <h3 className="font-bold">Professional Team</h3>
               <p className="text-gray-text dark:text-white/70 text-sm leading-relaxed">
-                Pellentesque rhoncus viverra vestibu, purus purus quisque qui
-                vestibulum facilisis dictumst consequat.
+                A professional team committed to delivering excellence and
+                exceeding your expectations.
               </p>
             </div>
             <div className="flex flex-col gap-4">
@@ -52,8 +52,8 @@ const WhatWeOffer = () => {
               </div>
               <h3 className="font-bold">On Time Service</h3>
               <p className="text-gray-text dark:text-white/70 text-sm leading-relaxed">
-                Quam dolor commodo fermentum bibendum dictumst. Risus pretium
-                eget at viverra eget neque adipiscing.
+                Experience on-time service that ensures your project stays on
+                track and on schedule.
               </p>
             </div>
           </div>

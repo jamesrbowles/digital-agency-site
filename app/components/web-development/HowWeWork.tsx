@@ -11,8 +11,8 @@ const HowWeWork = () => {
 
           <h3 className="font-bold">Identifying the problem</h3>
           <p className="text-gray-text dark:text-white/70 text-sm leading-relaxed">
-            Massa enim libero dictumst consectetur in convallis lobortis cursus
-            mi a magna ullamcorper consectetur.
+            Identifying the problem: We dig deep to uncover the root issues
+            hindering your digital success.
           </p>
         </div>
         <div className="flex flex-col gap-4">
@@ -22,8 +22,8 @@ const HowWeWork = () => {
 
           <h3 className="font-bold">Conducting a research</h3>
           <p className="text-gray-text dark:text-white/70 text-sm leading-relaxed">
-            At ultricies id non quisque integer eget velit. Facilisis enim
-            malesuada metus, risus amet ultricies magna aliquam.
+            Conducting research: Extensive data analysis and market research
+            shape our strategy for your project.
           </p>
         </div>
         <div className="flex flex-col gap-4">
@@ -33,8 +33,8 @@ const HowWeWork = () => {
 
           <h3 className="font-bold">Creating low-fidelity prototypes</h3>
           <p className="text-gray-text dark:text-white/70 text-sm leading-relaxed">
-            Pellentesque rhoncus viverra vestibulum, purus purus quisque quisque
-            vestibulum facilisis dictumst consequat.
+            Creating low-fidelity prototypes: Visualizing concepts before
+            development, ensuring efficient and effective solutions.
           </p>
         </div>
         <div className="flex flex-col gap-4">
@@ -44,8 +44,8 @@ const HowWeWork = () => {
 
           <h3 className="font-bold">Building an MVP version</h3>
           <p className="text-gray-text dark:text-white/70 text-sm leading-relaxed">
-            Massa enim libero dictumst consectetur in convallis lobortis cursus
-            mi a magna ullamcorper consectetur.
+            Building an MVP version: We craft a minimum viable product, a solid
+            foundation for future development.
           </p>
         </div>
       </div>

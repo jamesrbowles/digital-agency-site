@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function CallToAction() {
   return (
     <div className="max-w-[1316px] rounded-lg rounded-t-none mx-auto px-5 flex flex-col justify-center items-center h-[406px] bg-gradient-primary">
@@ -10,10 +12,11 @@ export default function CallToAction() {
       >
         careers@pexeldigitals
       </a>
-
-      <button className="bg-white hover:bg-off-white px-8 py-3 mt-12 rounded drop-shadow-lg dark:text-black">
-        Contact us
-      </button>
+      <Link href="/contact">
+        <button className="bg-white hover:bg-off-white px-8 py-3 mt-12 rounded drop-shadow-lg dark:text-black">
+          Contact us
+        </button>
+      </Link>
     </div>
   );
 }

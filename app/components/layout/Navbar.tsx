@@ -143,7 +143,7 @@ export default function Navbar() {
         <div className="flex items-center gap-8 text-gray-nav-text drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] max-[889px]:hidden">
           <ThemeSwitcher />
           <Link
-            href="/"
+            href="/contact"
             className="bg-primary px-5 py-2 rounded text-white hover:bg-primary-dark"
           >
             Contact
@@ -172,21 +172,15 @@ export default function Navbar() {
             {/* CLOSE ICON */}
             <div className="sidebar-modal-nav sidebar-animation">
               <div className="flex justify-between items-center mx-5 my-5 mb-3 drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-                {/* <Image
-                  src="/assets/images/logos/vanguard-logo.png"
-                  alt="Vanguard Logo"
-                  width={50}
-                  height={56.25}
-                  className=""
-                  style={{ objectFit: 'cover' }}
-                /> */}
-                <Image
-                  src="/assets/logo.png"
-                  alt="logo"
-                  width={60}
-                  height={60}
-                  style={{ objectFit: 'cover' }}
-                />
+                <Link href="/">
+                  <Image
+                    src="/assets/logo.png"
+                    alt="logo"
+                    width={60}
+                    height={60}
+                    style={{ objectFit: 'cover' }}
+                  />
+                </Link>
                 <FaTimes
                   className="text-xl text-gray-500 hover:text-gray-600 cursor-pointer"
                   onClick={() => setIsMenuToggled(true)}

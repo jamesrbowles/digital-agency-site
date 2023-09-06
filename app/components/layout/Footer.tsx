@@ -185,7 +185,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="text-tagline pb-16 font-thin text-xs">
+          <div className="text-tagline pb-3 font-thin text-xs">
             {new Date().getFullYear()} All rights reserved. Pexel Ltd
           </div>
         </footer>
